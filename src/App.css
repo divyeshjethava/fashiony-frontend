@@ -13,6 +13,7 @@
 }
 
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -49,16 +50,16 @@
 }
 .poster{
   background: linear-gradient(to bottom, #A8D08D, #FFFFFF); /* Light Green to White */
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 5%;
+  padding-right: 5%;
 
 }
 .nav{
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 5%;
+  padding-right: 5%;
 z-index: 50;
 }
 
@@ -724,8 +725,8 @@ margin-top: 150px;
 }
 .Des_conMain{
   display: flex;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 5%;
+  padding-right: 5%;
   flex-direction: column;
   text-align: center;
   margin-top: 100px;
@@ -779,8 +780,8 @@ margin-top: 150px;
   height: 400px;
   display: flex;
   flex-direction: column;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 100px;
   color: white;
 }
@@ -1232,8 +1233,8 @@ margin-top: 40px;
   height: 800px;
 }
 .det_con{
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 5%;
+  padding-right: 5%;
   display: flex;
   margin-top: 50px;
   font-family: "Parkinsans", sans-serif;
