@@ -9,7 +9,7 @@ export default function NewArrival() {
     useEffect(() => {
         const fetchProducts = async () => {
           try {
-            const response = await axios.get('http://localhost:3000/api/product');
+            const response = await axios.get('https://fashiony-backend.vercel.app/api/product');
            
           
           //  const allProducts = response.data || [];
