@@ -11,7 +11,7 @@ Modern e-commerce platform for fashion products built with React/Next.js.
 
 ## Installation
 ```bash
-git clone https://github.com/your-username/fashiony-frontend.git
+git clone https://github.com/divyeshjethava/fashiony-frontend.git
 npm install
 cp .env.example .env
 
