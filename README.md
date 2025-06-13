@@ -1,0 +1,16 @@
+# Fashiony Frontend
+
+## Overview
+Modern e-commerce platform for fashion products built with React/Next.js.
+
+## Features
+- Responsive product catalog
+- Shopping cart & checkout
+- User authentication
+- Order tracking
+
+## Installation
+```bash
+git clone https://github.com/your-username/fashiony-frontend.git
+npm install
+cp .env.example .env
