@@ -45,7 +45,7 @@ export default function Hero() {
   };
   const exploreNavigate = () => {
     
-    navigates('/explores');
+    navigates('/explore');
   }
   useEffect(() => {
     const generateStyles = () => {

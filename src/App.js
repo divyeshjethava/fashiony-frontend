@@ -13,6 +13,7 @@ import {CartProvider} from './componts/CartContext.js'
 import BestSelling from './componts/BestSelling.js';
 import Details from './componts/Details.js';
 import { AuthProvider } from './componts/AuthContext.js';
+import Explore from './componts/Explore.js';
 
 
 
@@ -35,6 +36,7 @@ function App() {
           <Route path='/Contact' element={<Contact />} />
           <Route path='/bestselling' element={<BestSelling/>}/>
           <Route path='/details' element = {<Details/>}/>
+          <Route path='/explore' element = {<Explore/>}/>
 
 
         </Routes>
