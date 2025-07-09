@@ -481,9 +481,9 @@ margin-top: -10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 150px;
+  padding-left: 5%;
   height: auto;
-  padding-right: 150px;
+  padding-right: 5%;
   color: #224F34;
 }
 .ourProductMainContainer h1{
@@ -562,7 +562,7 @@ justify-content: center;
 
 }
 
-.our_container{
+.{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
