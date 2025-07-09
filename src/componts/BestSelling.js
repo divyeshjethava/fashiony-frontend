@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 export default function BestSelling() {
     const [products, setProducts] = useState([]);
+      const navigate = useNavigate();
     useEffect(() => {
         const fetchProducts = async () => {
           try {

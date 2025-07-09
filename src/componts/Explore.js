@@ -6,6 +6,7 @@ import { useInView } from "react-intersection-observer";
 
 export default function Explore() {
     const [products, setProducts] = useState([]);
+      const navigate = useNavigate();
     useEffect(() => {
         const fetchProducts = async () => {
           try {
