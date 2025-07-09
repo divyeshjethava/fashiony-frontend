@@ -14,9 +14,9 @@ export default function Explore() {
            
           
             const allProducts = response.data || [];
-            const bestSellingProducts = allProducts.filter(product => product.status === 'bs');
+            
                 
-            setProducts(bestSellingProducts);
+            setProducts(allProducts);
           } catch (error) {
             console.error('Error fetching products:', error);
           }
@@ -29,7 +29,7 @@ export default function Explore() {
   };
   return (
      <div className="our_container1">
-            <h1>Best Selling Products</h1>
+            <h1>Explore More Products</h1>
             <div className="product_b_con">
 
                 {products.map((product) => {
