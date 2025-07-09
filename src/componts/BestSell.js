@@ -46,20 +46,20 @@ export default function BestSell() {
         ref={ref}
         initial={{ opacity: 0, x: -50 }}
         animate={inView ? { opacity: 1, x: 0 } : {}}
-        transition={{ duration: 0.5, ease: "easeOut" }}
+        transition={{ duration: 0.3, ease: "easeOut" }}
 
       >Best Selling</motion.h1>
       <motion.h3
         ref={ref}
         initial={{ opacity: 0, x: -50 }}
         animate={inView ? { opacity: 1, x: 0 } : {}}
-        transition={{ duration: 0.5, ease: "easeOut" }}
+        transition={{ duration: 0.3, ease: "easeOut" }}
       >Get in on the trend with our curated selection of best-selling style.</motion.h3>
       <motion.div
         ref={ref}
         initial={{ opacity: 0, x: 50 }}
         animate={inView ? { opacity: 1, x: 0 } : {}}
-        transition={{ duration: 0.5, ease: "easeOut" }}
+        transition={{ duration: 0.3, ease: "easeOut" }}
 
         className="btproMin">
 
@@ -89,7 +89,7 @@ export default function BestSell() {
         ref={ref}
         initial={{ opacity: 0, y: 50 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.5, ease: "easeOut" }}
+        transition={{ duration: 0.3, ease: "easeOut" }}
         className='btnBestproDiv'>
         <button className='btnBestpro' onClick={() => navigate('/bestselling')}>
           <div className='green'></div>
