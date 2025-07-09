@@ -10,7 +10,7 @@ import Accesories from './Accesories.js';
 
 export default function OurProduct() {
   const [selectedSection, setSelectedSection] = useState('hot');
-  const { ref, inView } = useInView({ threshold: 0.2, })
+  const { ref, inView } = useInView({ threshold: 0.2,triggerOnce:true, })
   const handleClick = (section) => {
     setSelectedSection(section);
   };
@@ -28,13 +28,13 @@ export default function OurProduct() {
         ref={ref}
         initial={{ opacity: 0, x: -50 }}
         animate={inView ? { opacity: 1, x: 0 } : {}}
-        transition={{ duration: 0.8, ease: "easeOut" }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
       >Our Products</motion.h1>
       <motion.div
         ref={ref}
         initial={{ opacity: 0, y: -50 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.8, ease: "easeOut" }}>
+        transition={{ duration: 0.5, ease: "easeOut" }}>
         <ul>
           <li onClick={() => handleClick('sale')} className={selectedSection === 'sale' ? 'title1 active' : 'title1'}>
             SALE
