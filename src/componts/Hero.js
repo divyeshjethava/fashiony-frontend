@@ -90,7 +90,7 @@ export default function Hero() {
          ref={ref}
          initial={{ opacity: 0, x: -50 }}
          animate={inView ? { opacity: 1, x: 0 } : {}}
-         transition={{ duration: 0.8, ease: "easeOut" }} 
+         transition={{ duration: 0.5, ease: "easeOut" }} 
 
          className="hero1">
         <h1 className='h1'>Discover and Find Your Own Fashion!</h1>
@@ -103,20 +103,20 @@ export default function Hero() {
          ref={ref}
          initial={{ opacity: 0, y: -50 }}
          animate={inView ? { opacity: 1, y: 0 } : {}}
-         transition={{ duration: 0.8, ease: "easeOut" }}
+         transition={{ duration: 0.5, ease: "easeOut" }}
        className='frame1'></motion.div>
       <motion.div
          ref={ref}
          initial={{ opacity: 0, y: -50 }}
          animate={inView ? { opacity: 1, y: 0 } : {}}
-         transition={{ duration: 0.8, ease: "easeOut" }}
+         transition={{ duration: 0.5, ease: "easeOut" }}
 
        className='frame2'></motion.div>
       <motion.div
          ref={ref}
          initial={{ opacity: 0, x: 50 }}
          animate={inView ? { opacity: 1, x: 0 } : {}}
-         transition={{ duration: 0.8, ease: "easeOut" }}
+         transition={{ duration: 0.5, ease: "easeOut" }}
        className='frame_img'>
       <Slider {...settings}>
         <div className="slide">
