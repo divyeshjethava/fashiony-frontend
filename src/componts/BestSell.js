@@ -10,7 +10,7 @@ export default function BestSell() {
   const statusFilter = "bs"
   const [products, setProducts] = useState([]);
   const navigate = useNavigate();
-  const { ref, inView } = useInView({ threshold: 0.1, });
+  const { ref, inView } = useInView({ threshold: 0.1, triggerOnce : true,});
 
   const productsToDisplay = products.slice(0, 3);
 
