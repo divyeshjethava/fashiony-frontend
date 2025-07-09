@@ -43,7 +43,7 @@ export default function Hero() {
     cssEase: 'ease-in-out',
     fade: true,
   };
-  const explore = () => {
+  const exploreNavigate = () => {
     
     navigate('/explores');
   }
@@ -95,7 +95,7 @@ export default function Hero() {
          className="hero1">
         <h1 className='h1'>Discover and Find Your Own Fashion!</h1>
         <p className='p'>Explore our curated collection of unique and stylish clothing items and accessories tailored to your unique taste.</p>
-        <button className="heroButton" onClick={explore}>EXPLORE NOW</button>
+        <button className="heroButton" onClick={exploreNavigate()}>EXPLORE NOW</button>
       </motion.div>
       <div className="hero2">
      
