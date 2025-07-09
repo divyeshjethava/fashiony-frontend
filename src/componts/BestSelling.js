@@ -4,7 +4,7 @@ import axios from 'axios';
 
 export default function BestSelling() {
     const [products, setProducts] = useState([]);
-      const navigate = useNavigate();
+      const navigates = useNavigate();
     useEffect(() => {
         const fetchProducts = async () => {
           try {
@@ -21,8 +21,8 @@ export default function BestSelling() {
         };
         fetchProducts();
       }, []);
-        const handleNavigate = (product) => {
-    navigate('/details', { state: { product } });
+   const handleNavigate = (product) => {
+    navigates('/details', { state: { product } });
   };
 
     return (
