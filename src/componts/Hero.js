@@ -14,7 +14,7 @@ import { useInView } from "react-intersection-observer";
 
 
 export default function Hero() {
-  const navigate = useNavigate();
+  const navigates = useNavigate();
    const { ref, inView } = useInView({ threshold: 0.5, });
   const [iconStyles, setIconStyles] = useState([]);
   const icons = useMemo(() => [
@@ -45,7 +45,7 @@ export default function Hero() {
   };
   const exploreNavigate = () => {
     
-    navigate('/explores');
+    navigates('/explores');
   }
   useEffect(() => {
     const generateStyles = () => {
@@ -95,7 +95,7 @@ export default function Hero() {
          className="hero1">
         <h1 className='h1'>Discover and Find Your Own Fashion!</h1>
         <p className='p'>Explore our curated collection of unique and stylish clothing items and accessories tailored to your unique taste.</p>
-        <button className="heroButton" onClick={exploreNavigate()}>EXPLORE NOW</button>
+        <button className="heroButton" onClick={exploreNavigate}>EXPLORE NOW</button>
       </motion.div>
       <div className="hero2">
      
