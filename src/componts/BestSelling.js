@@ -19,6 +19,9 @@ export default function BestSelling() {
         };
         fetchProducts();
       }, []);
+        const handleNavigate = (product) => {
+    navigate('/details', { state: { product } });
+  };
 
     return (
         <div className="our_container1">
@@ -29,7 +32,7 @@ export default function BestSelling() {
                   
                     return(
                         
-                    <div key={product._id} className="oc2">
+                    <div key={product._id} className="oc2"  onClick={() => handleNavigate(product)}>
                         
                         <img className="bimg" src={product.images?.[0]} alt={product.name} />
                       
